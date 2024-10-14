@@ -196,5 +196,24 @@ for($i=0;$i<6;$i++){
     echo "<br>";
 }
 ?>
+<hr>
+<h2>矩形練習</h2>
+<?php
+$width=7;
+
+for($i=0;$i<$width;$i++){
+    for($j=0;$j<$width;$j++){
+        if($i==0 || $i==($width-1)){
+            echo "*";
+        }else if($j==0 ||$j==$width-1){
+            echo "*";
+        }else{
+            echo "&nbsp;";
+        }
+    }
+    echo "<br>";
+}
+
+?>
 </body>
 </html>
